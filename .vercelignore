@@ -1,0 +1,7 @@
+package.json
+package-lock.json
+node_modules
+3.  **Pastikan File `api/index.php` Benar:** Cek sekali lagi apakah file `api/index.php` sudah ada di folder utama (sejajar dengan `vercel.json`) dengan isi:
+```php
+<?php
+require __DIR__ . '/../public/index.php';
